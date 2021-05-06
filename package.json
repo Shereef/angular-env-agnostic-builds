@@ -3,11 +3,14 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "prestart": "npm run copy-env-config",
+    "start": "ng serve --o",
+    "prebuild": "npm run copy-env-config",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "copy-env-config": "node scripts/copy-env-config.js"
   },
   "private": true,
   "dependencies": {

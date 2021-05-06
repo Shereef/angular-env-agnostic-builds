@@ -44,3 +44,9 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# agnostic config files
+#please ignore this so it doesn't get source controlled with a hard coded env
+src/assets/config
+src/assets/config/*
+src/assets/config/config.json

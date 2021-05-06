@@ -1,0 +1,4 @@
+{
+    "env": "stage",
+    "apiUrl":"https://stage-api.domain.tld"
+}
